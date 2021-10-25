@@ -37,7 +37,7 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => (
       <h2 className="projectTitle">
-        {siteConfig.title} <a
+        <img src={`${baseUrl}img/ldex-logo-with-text-transparent.png`} alt="LDEX" style={{width: '200px'}} /> <a
           className="github-button"
           href="https://github.com/jondubois/lisk-dex"
           data-icon="octicon-star"
