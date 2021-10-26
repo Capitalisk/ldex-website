@@ -80,10 +80,10 @@ class HomeSplash extends React.Component {
               rel="noreferrer noopener"
             >Run desktop app from source</Button>
             <Button
-              href="https://medium.com/@jonathangrosdubois/how-to-buy-leasehold-tokens-87c0ba0682ab"
+              href="https://capitalisk.com/"
               target="_blank"
               rel="noreferrer noopener"
-            >How to buy guide</Button>
+            >Capitalisk token</Button>
             <Button
               href="https://gitter.im/lisk-dex/community"
               target="_blank"
