@@ -73,7 +73,11 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="trade">Start trading</Button>
+            <Button
+              href="trade"
+              target="_blank"
+              rel="noreferrer noopener"
+            >Start trading</Button>
             <Button
               href="https://github.com/Leasehold/ldex-ui"
               target="_blank"
