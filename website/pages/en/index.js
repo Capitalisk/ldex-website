@@ -142,7 +142,7 @@ class Index extends React.Component {
             title: 'Fast',
           },
           {
-            content: 'LDEX implements a decentralized 2-way peg mechanism. Each DEX market is made up of between 10 to 100 validators who sign cross-chain trades.',
+            content: 'LDEX implements a decentralized 2-way peg mechanism. Each DEX market is made up of between 8 to 100 validators who sign cross-chain trades.',
             image: `${baseUrl}img/icons/network.png`,
             imageAlign: 'top',
             title: 'Decentralized',

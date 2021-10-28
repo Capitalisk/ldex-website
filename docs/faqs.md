@@ -52,7 +52,7 @@ Limit orders on LDEX can stay open on the order book for up to 1 month before th
 
 ### How can I become an LDEX member/validator?
 
-Each LDEX market is made up of 10 to 100 members who validate cross-chain transfers and receive a share of trading fees. Most slots are reserved for Leasehold directors and original LDEX members but each market will also have some spare slots available for outside participants. You can apply for a slot on specific markets via the Leasehold [dex-members channel](https://discord.gg/mGCPYpS).
+Each LDEX market is made up of 8 to 100 members who validate cross-chain transfers and receive a share of trading fees. Most slots are reserved for Leasehold directors and original LDEX members but each market will also have some spare slots available for outside participants. You can apply for a slot on specific markets via the Leasehold [dex-members channel](https://discord.gg/mGCPYpS).
 
 ### How can I get my token listed on LDEX?
 
