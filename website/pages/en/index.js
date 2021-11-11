@@ -190,17 +190,17 @@ class Index extends React.Component {
     const DesktopApps = () => (
         <BlockWithHeading layout="fourColumn" background={'light'} heading={'Desktop app downloads'}>
           {[
-            {
-              image: 'img/icons/windows-icon.png',
-              imageAlign: 'top',
-              title: 'Windows',
-              imageLink: 'downloads/lisk-dex-electron-0.1.0-win.exe'
-            },
+            // {
+            //   image: 'img/icons/windows-icon.png',
+            //   imageAlign: 'top',
+            //   title: 'Windows',
+            //   imageLink: 'downloads/lisk-dex-electron-0.1.0-win.exe'
+            // },
             {
               image: 'img/icons/ubuntu-icon.png',
               imageAlign: 'top',
               title: 'Linux',
-              imageLink: 'downloads/lisk-dex-electron-0.1.0-linux-x86_64.AppImage'
+              imageLink: 'downloads/lisk-dex-electron-1.2.0.AppImage'
             },
           ]}
         </BlockWithHeading>
