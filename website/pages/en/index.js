@@ -200,7 +200,7 @@ class Index extends React.Component {
               image: 'img/icons/ubuntu-icon.png',
               imageAlign: 'top',
               title: 'Linux',
-              imageLink: 'downloads/lisk-dex-electron-1.2.0.AppImage'
+              imageLink: 'downloads/lisk-dex-electron-1.4.1.AppImage'
             },
           ]}
         </BlockWithHeading>
