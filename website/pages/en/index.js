@@ -39,9 +39,9 @@ class HomeSplash extends React.Component {
       <h2 className="projectTitle">
         <img src={`${baseUrl}img/ldex-logo-with-text-transparent.png`} alt="LDEX" style={{width: '200px'}} /> <a
           className="github-button"
-          href="https://github.com/jondubois/lisk-dex"
+          href="https://github.com/capitalisk/capitalisk-dex"
           data-icon="octicon-star"
-          data-count-href="https://github.com/jondubois/lisk-dex/stargazers"
+          data-count-href="https://github.com/capitalisk/capitalisk-dex/stargazers"
           data-show-count="true"
           data-count-aria-label="# stargazers on GitHub"
           data-size="large"
@@ -79,7 +79,7 @@ class HomeSplash extends React.Component {
               rel="noreferrer noopener"
             >Start trading</Button>
             <Button
-              href="https://github.com/Leasehold/ldex-ui"
+              href="https://github.com/capitalisk/ldex-ui"
               target="_blank"
               rel="noreferrer noopener"
             >Run desktop app from source</Button>
@@ -88,11 +88,6 @@ class HomeSplash extends React.Component {
               target="_blank"
               rel="noreferrer noopener"
             >Capitalisk token</Button>
-            <Button
-              href="https://gitter.im/lisk-dex/community"
-              target="_blank"
-              rel="noreferrer noopener"
-            >Chat on Gitter</Button>
           </PromoSection>
         </div>
       </SplashContainer>

@@ -15,7 +15,7 @@ The DEX output is deterministic and idempotent relative to its input so there ca
 
 Each time a trade is executed, the following fees are deducted from the cross-chain transfer on each affected blockchain:
 
-- **Base fee**: This is a flat fee which is used to cover the transaction fees of the underlying blockchains. It is levied against every type of DEX transaction. For Lisk and Leasehold blockchains, this fee is `0.1 LSK/LSH`.
+- **Base fee**: This is a flat fee which is used to cover the transaction fees of the underlying blockchains. It is levied against every type of DEX transaction.
 - **Rate fee**: This fee is a percentage of the total amount of each transfer. It is levied against all trade transactions (`t1` and `t2`) on both affected blockchains in addition to the base fee. This fee is currently `0.1%` for all LDEX markets.
 
 Because orders are filled in real time, the flat base fee could be levied multiple times against a single order depending on the number of matching counterparty orders.
@@ -40,7 +40,7 @@ Order transactions are signed on the front end and submitted directly to the rel
 
 ### What is the minimum size of an order?
 
-This can vary between markets and is designed to limit spam. For Lisk and Leasehold, the minimum order is `10 LSK/LSH`.
+This can vary between markets and is designed to limit spam.
 
 ### What happens if I send an invalid order to the DEX multisig address?
 

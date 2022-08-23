@@ -42,18 +42,14 @@ class Footer extends React.Component {
             </span>
           </div>
           <div>
-            <h5>Community</h5>
-            <a href="https://gitter.im/lisk-dex/community" target="_blank" rel="noreferrer noopener">Project Chat</a>
-          </div>
-          <div>
             <h5>More</h5>
-            <a href="https://github.com/leasehold/ldex-ui" target="_blank" rel="noreferrer noopener">GitHub: LDEX UI</a>
-            <a href="https://github.com/jondubois/lisk-dex" target="_blank" rel="noreferrer noopener">GitHub: Lisk DEX</a>
+            <a href="https://github.com/capitalisk/ldex-ui" target="_blank" rel="noreferrer noopener">GitHub: LDEX UI</a>
+            <a href="https://github.com/jondubois/capitalisk-dex" target="_blank" rel="noreferrer noopener">GitHub: Capitalisk DEX</a>
             <a
               className="github-button"
-              href="https://github.com/jondubois/lisk-dex"
+              href="https://github.com/capitalisk/capitalisk-dex"
               data-icon="octicon-star"
-              data-count-href="https://github.com/jondubois/lisk-dex/stargazers"
+              data-count-href="https://github.com/capitalisk/capitalisk-dex/stargazers"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub">

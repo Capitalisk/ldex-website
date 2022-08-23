@@ -27,10 +27,6 @@ function Help(props) {
       title: 'Browse guides',
     },
     {
-      content: 'Ask questions about the documentation and project on [Gitter.im](https://gitter.im/lisk-dex/community)',
-      title: 'Join the community',
-    },
-    {
       content: "Find out what's new with this project by following us on [Twitter](https://twitter.com/SocketCluster)",
       title: 'Stay up to date',
     },

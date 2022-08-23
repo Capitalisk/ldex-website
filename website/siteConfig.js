@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'LDEX', // Title for your website.
-  tagline: 'Lisk Decentralized Exchange',
+  tagline: 'Capitalisk Decentralized Exchange',
   url: 'https://ldex.exchange', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:

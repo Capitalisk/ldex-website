@@ -50,7 +50,7 @@ function Versions(props) {
                   <a href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${ props.language ? props.language + '/' : '' }next/faqs`}> Documentation </a>
                 </td>
                 <td>
-                  <a href="https://github.com/jondubois/lisk-dex">Source Code</a>
+                  <a href="https://github.com/capitalisk/capitalisk-dex">Source Code</a>
                 </td>
               </tr>
             </tbody>
