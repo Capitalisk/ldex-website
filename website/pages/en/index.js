@@ -189,13 +189,13 @@ class Index extends React.Component {
             //   image: 'img/icons/windows-icon.png',
             //   imageAlign: 'top',
             //   title: 'Windows',
-            //   imageLink: 'downloads/lisk-dex-electron-0.1.0-win.exe'
+            //   imageLink: 'downloads/ldex-electron-0.1.0-win.exe'
             // },
             {
               image: 'img/icons/ubuntu-icon.png',
               imageAlign: 'top',
               title: 'Linux',
-              imageLink: 'downloads/lisk-dex-electron-1.4.1.AppImage'
+              imageLink: 'downloads/ldex-electron-1.4.1.AppImage'
             },
           ]}
         </BlockWithHeading>
