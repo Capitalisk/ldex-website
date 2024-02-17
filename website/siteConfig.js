@@ -98,7 +98,7 @@ const siteConfig = {
   // enableUpdateTime: true,
 
   gaTrackingId: 'UA-168265627-1',
-  gaGtag: true
+  gaGtag: false
 };
 
 module.exports = siteConfig;
