@@ -68,7 +68,7 @@
 
 .splashSubsectionContent {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .splashSubsectionItem {

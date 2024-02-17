@@ -207,9 +207,9 @@ class Index extends React.Component {
         <div className="splashSubsection">
         <div className="splashSubsectionContent">
           <div className="splashSubsectionCaption" style={{marginRight: '15px'}}>Supported by</div>
-            <a className="splashSubsectionLink" href={`https://leasehold.io`} target="_blank">
+            <a className="splashSubsectionLink" href={`https://capitalisk.com`} target="_blank">
               <div className="splashSubsectionItem">
-              <img src="img/leasehold-logo-with-text-white.png" />
+              <img src="img/capitalisk-logo-horizontal-white.png" />
               </div>
             </a>
           </div>
