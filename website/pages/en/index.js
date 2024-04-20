@@ -35,22 +35,41 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const ProjectTitle = () => (
-      <h2 className="projectTitle">
-        <img src={`${baseUrl}img/ldex-logo-with-text-transparent.png`} alt="LDEX" style={{width: '200px'}} /> <a
-          className="github-button"
-          href="https://github.com/capitalisk/capitalisk-dex"
-          data-icon="octicon-star"
-          data-count-href="https://github.com/capitalisk/capitalisk-dex/stargazers"
-          data-show-count="true"
-          data-count-aria-label="# stargazers on GitHub"
-          data-size="large"
-          data-text="Star"
-          aria-label="Star this project on GitHub">
-        </a>
-        <small>{siteConfig.tagline}</small>
-      </h2>
-    );
+    const ProjectTitle = () => {
+      function toggleMusic() {
+        console.log(2222);
+        let musicToggle = document.querySelector('.music-toggle');
+        let audioEl = document.querySelector('.music');
+        if (audioEl.paused) {
+          audioEl.currentTime = 0;
+          audioEl.play();
+          musicToggle.classList.remove('paused');
+        } else {
+          audioEl.pause();
+          musicToggle.classList.add('paused');
+        }
+      }
+      return (
+        <h2 className="projectTitle">
+          <img src={`${baseUrl}img/ldex-logo-with-text-transparent.png`} alt="LDEX" style={{width: '200px'}} /> <a
+            className="github-button"
+            href="https://github.com/capitalisk/capitalisk-dex"
+            data-icon="octicon-star"
+            data-count-href="https://github.com/capitalisk/capitalisk-dex/stargazers"
+            data-show-count="true"
+            data-count-aria-label="# stargazers on GitHub"
+            data-size="large"
+            data-text="Star"
+            aria-label="Star this project on GitHub">
+          </a>
+          <a href="javascript: (() => { let musicToggle = document.querySelector('.music-toggle'); let audioEl = document.querySelector('.music'); if (audioEl.paused) { audioEl.currentTime = 0; audioEl.play(); musicToggle.classList.remove('paused'); } else { audioEl.pause(); musicToggle.classList.add('paused'); } })()"><span className="music-toggle paused">&#9835;</span></a>
+          <audio className="music">
+            <source src="https://saasufy.com/sid8002/files/Music/f1dd11f5-aed1-4a15-ae92-e8182d11e0e7/file" type="audio/mp3" />
+          </audio>
+          <small>{siteConfig.tagline}</small>
+        </h2>
+      );
+    };
 
     const PromoSection = props => (
       <div className="section promoSection">
