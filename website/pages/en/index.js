@@ -37,7 +37,6 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => {
       function toggleMusic() {
-        console.log(2222);
         let musicToggle = document.querySelector('.music-toggle');
         let audioEl = document.querySelector('.music');
         if (audioEl.paused) {
@@ -62,10 +61,6 @@ class HomeSplash extends React.Component {
             data-text="Star"
             aria-label="Star this project on GitHub">
           </a>
-          <a href="javascript: (() => { let musicToggle = document.querySelector('.music-toggle'); let audioEl = document.querySelector('.music'); if (audioEl.paused) { audioEl.currentTime = 0; audioEl.play(); musicToggle.classList.remove('paused'); } else { audioEl.pause(); musicToggle.classList.add('paused'); } })()"><span className="music-toggle paused">&#9835;</span></a>
-          <audio className="music">
-            <source src="https://saasufy.com/sid8002/files/Music/f1dd11f5-aed1-4a15-ae92-e8182d11e0e7/file" type="audio/mp3" />
-          </audio>
           <small>{siteConfig.tagline}</small>
         </h2>
       );
